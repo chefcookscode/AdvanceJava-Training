@@ -20,6 +20,16 @@ public class Demo1 {
         a.addAll(2, a1);
         System.out.println("After adding list two into list one at index 2: " + a);
 
-        
+        // Use indexOf to find the index of an element
+        int index = a.indexOf("Java");
+        System.out.println("Index of 'Java': " + index);
+
+        // Use get function to get element at specific index
+        String element = a.get(3);
+        System.out.println("Element at index 3: " + element);
+        // or DIRECT METHOD
+        System.out.println("Element at index 4: " + a.get(4));
+
+
     }
 }
